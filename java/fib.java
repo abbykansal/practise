@@ -5,7 +5,11 @@ class a{
  Scanner sc= new Scanner(System.in);
  int n = sc.nextInt();
 
-System.out.print("0 1 ");
+if (n == 0) {
+	System.out.print("0");
+} else if (n == 1) {
+	System.out.print("1");
+}
  while(k<=n){
  
  k=a+b;
