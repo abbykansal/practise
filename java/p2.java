@@ -1,5 +1,9 @@
- class a{
+import java.util.*; 
+class a{
+	
 	public static void main(String [] a){
+		Scanner sc = new Scanner(System.out);
+		int a = sc.nextInt();
 
 		for(int r=1;r<=5;r++)
 		{
